@@ -1,0 +1,20 @@
+1. Installer Python :
+    Avant de pouvoir installer Django, vous devez d'abord installer Python sur votre ordinateur. Pour vérifier si Python est déjà installé sur votre système, ouvrez une invite de commande et tapez python --version.
+
+2. Environnement virtuel Python:
+    "python -m venv django-venv" est une commande utilisée dans le terminal pour créer un nouvel environnement virtuel Python nommé "django-venv" dans le répertoire actuel.
+
+3. Activer l"environnement virtuel créé:
+    Vous pouvez l'activer en exécutant "source django-venv/bin/activate" (sous Linux/macOS) ou "django-venv\Scripts\activate.bat" (sous Windows)
+
+3. Installer Django : 
+    Pour installer Django, ouvrez une invite de commande et tapez "pip install django". Cela installera la dernière version de Django disponible sur votre système.
+
+4. Créer un projet Django :
+    Après avoir installé Django, vous pouvez créer un nouveau projet Django en exécutant la commande "django-admin startproject nom_du_projet" dans une invite de commande.
+
+5. Vérifier l'installation :
+    Pour vérifier que votre projet a été créé avec succès, vous pouvez vous rendre dans le répertoire du projet et exécuter la commande "python manage.py runserver". Cela devrait lancer le serveur de développement de Django et vous devriez pouvoir accéder à l'application dans votre navigateur en visitant "http://127.0.0.1:8000/".
+
+6. C'est la fin.
+    Merci !!!
